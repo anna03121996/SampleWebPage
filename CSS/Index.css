@@ -273,6 +273,6 @@ a:hover{
   }
 
   input:focus{
-      border: 2px solid orange;
+      border: 3px solid orange;
       border-radius: 5px;
   }
