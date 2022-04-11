@@ -55,7 +55,7 @@ a:hover{
 }
 .service_dropdown li a{
     margin-left: -40px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .welcome{
     margin-top: 200px;
@@ -197,8 +197,8 @@ a:hover{
     justify-content: center;
 }
 .foot_social img{
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     margin: 50px;
 }
 /* basket ball */
