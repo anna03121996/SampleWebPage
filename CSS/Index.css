@@ -95,7 +95,7 @@ a:hover{
         transition-duration: 4s;
     }
 }
-.content_bar_1{
+.content_bar_1a{
     padding-top: 150px;
     height: 500px;
     width: 1888px;
@@ -104,6 +104,7 @@ a:hover{
     animation-duration: 20s;
     background-size: cover;
     animation-iteration-count: infinite;
+    background-image: linear-gradient(rgb(122, 206, 245),rgb(250, 106, 95));
 }
 .content_bar{
     display: flex;
