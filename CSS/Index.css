@@ -95,7 +95,7 @@ a:hover{
         transition-duration: 4s;
     }
 }
-.content_bar_1a{
+.our_work{
     padding-top: 150px;
     height: 500px;
     width: 100%;
@@ -144,6 +144,12 @@ a:hover{
     background-color: black;
     color: white;
 }
+/* .content_image{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-size:cover;
+} */
 .emp{
     display: flex;
     justify-content: space-evenly;
@@ -264,4 +270,9 @@ a:hover{
   }
   fieldset{
     padding-top: 50px;
+  }
+
+  input:focus{
+      border: 2px solid orange;
+      border-radius: 5px;
   }
