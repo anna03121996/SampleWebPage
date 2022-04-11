@@ -98,7 +98,7 @@ a:hover{
 .content_bar_1a{
     padding-top: 150px;
     height: 500px;
-    width: 1888px;
+    width: 100%;
     overflow-x: hidden;
     animation-name: colors;
     animation-duration: 20s;
@@ -129,6 +129,9 @@ a:hover{
     font-weight: bolder;
     color: darkgoldenrod;
 
+}
+.work_service h4:hover{
+    font-size: 30px;
 }
 .work{
     height: 150px;
@@ -219,3 +222,46 @@ a:hover{
     transform: translate(0px,-600px) rotate(340deg) scale(.7);
     transition-duration: 5s;
 }
+/*Form Validation*/
+#reg fieldset {
+    border: 3px solid greenyellow; 
+    border-radius: 10px;
+    background-color: rgba(255, 228, 196, 0.486);
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: left;
+    color: blueviolet;
+    font-weight: bolder;
+  
+  }
+  
+  #reg fieldset legend{
+    height: 30px;
+    width: 100px;
+    border: 3px solid rgb(0, 255, 21);
+    border-radius: 3px;
+    background-color: white;
+    padding-top: 8px;
+  }
+  #reg fieldset form input, select, button, option{
+    height: 30px;
+    width: 200px;
+    border: 3px solid yellowgreen;
+    border-radius: 5px;
+  }
+  #reg fieldset form button{
+    color: yellow;
+    background-color: royalblue;
+    font-weight: bold;
+  }
+  .form{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #reg{
+    height: fit-content;
+  }
+  fieldset{
+    padding-top: 50px;
+  }
