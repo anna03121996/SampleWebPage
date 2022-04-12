@@ -277,3 +277,89 @@ a:hover{
       border-radius: 5px;
   }
   /* Link 2 */
+  #game_box{
+      height: 700px;
+      width: 100%;
+      border-bottom: 3px solid gray;
+  }
+  @keyframes game_box_head{
+      0%{
+          background-color: orange;
+      }
+      25%{
+          background-color: yellowgreen;
+      }
+      50%{
+          background-color: gold;
+      }
+      75%{
+          background-color: palegoldenrod;
+      }
+      100%{
+          background-color: hotpink;
+      }
+  }
+  #game_box h1{
+      margin: 20px 20px 20px  20px;
+      text-align: center;
+      border-radius: 10px;
+      animation-name: game_box_head;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes cactus_plant{
+      0%{
+          transform: translate(0,0);
+      }
+      50%{
+          transform: translate(2000px,0);
+      }
+      100%{
+          transform: translate(-2000px,0);
+      }
+  }
+  .cactus{
+    padding-left: 100px;
+    padding-top: 600px;
+    height: 80px;
+    animation-name: cactus_plant;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes ball_jump{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,-200px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+#game_ball{
+    height: 50px;
+    width: auto;
+    padding-left: 500px;
+}
+#game_ball:hover{
+    animation-name: ball_jump;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+#cactus1{
+    padding-left: 100px;
+}
+/* #cactus2{
+    padding-left: 200px;
+}
+#cactus3{
+    padding-left: 300px;
+}
+#cactus4{
+    padding-left: 300px;
+}
+#cactus5{
+    padding-left: 300px;
+} */
